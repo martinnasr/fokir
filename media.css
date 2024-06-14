@@ -1,0 +1,229 @@
+@media screen and (max-width: 768px) {
+
+    
+      .navbar{
+        display: flex;
+        flex-direction: column;
+      }
+      .navbar .logo {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      .nav-links ul {
+        display: flex;
+        flex-direction: column;
+       
+      }
+      .nav-links ul li{
+        display: flex;
+         justify-content: center;
+        margin-bottom: 10px;
+      }
+
+}
+@media screen and (max-width: 768px){
+  .about .about-img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+}
+@media screen and (min-width: 769px) and (max-width:992px){
+  .about .about-img {
+    width: 50%;
+    margin-bottom: 50px;
+     
+  }
+  
+}
+@media screen and (max-width: 768px){
+  .about .about-content {
+    width: 100%;
+    margin-bottom: 200px;
+    
+  }
+  
+}
+@media screen and (min-width: 769px) and (max-width:992px){
+  .about .about-content {
+    width: 40%;
+    margin-bottom: 150px;
+    
+  }
+}
+@media screen and (max-width: 768px){
+  .services .container .header h2::after {
+  
+   left: 20%;
+   top:95%;
+    
+  }
+  .services .container .header h2::before{
+    left:25%;
+    top: 93.5%;
+  }
+  
+}
+@media screen and (min-width: 769px) and (max-width:992px){
+  .services .container .header h2::after {
+  
+   left: 30%;
+   top:95%;
+    
+  }
+  .services .container .header h2::before{
+    left:35%;
+    top: 92%;
+  }
+}
+@media screen and (max-width: 768px){
+  .about .about-content {
+    width: 100%;
+    margin-bottom: 200px;
+    
+  }
+  
+}
+@media screen and (min-width: 769px) and (max-width:992px){
+ .services .container .item {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px){
+  .ourportfolio .container h2::after {
+    left: 20%;
+   top:85%
+    
+  }
+  .ourportfolio .container h2::before{
+    left: 25%;
+    top: 80%;
+    
+  }
+  .ourportfolio .container .links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .ourportfolio .container .links li a{
+    display: flex;
+    flex-direction: column;
+  }
+  .ourportfolio .container .portofolio-content .port-item{
+    width: 100%;
+  }
+  
+}
+@media screen and (min-width: 769px) and (max-width:992px){
+  .ourportfolio .container h2::after{
+    left: 30%;
+   top:95%;
+  }
+  .ourportfolio .container h2::before{
+    left:35%;
+    top: 90%;
+  }
+  .ourportfolio .container .portofolio-content .port-item{
+    width: 50%;
+  }
+ 
+}
+@media screen and (min-width: 769px) and (max-width:992px){
+  .testmonial .container h2::after{
+    left: 30%;
+    top:95%;
+  }
+  .testmonial .container h2::before{
+    left:35%;
+    top: 90%;
+  }
+  .testmonial .container .client-item{
+    width: 100%;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 768px){
+  .testmonial .container h2::after {
+    left: 20%;
+   top:95%
+    
+  }
+  .testmonial .container h2::before{
+    left: 25%;
+    top: 90%;
+    
+  }
+  .testmonial .container .client-item{
+    width: 100%;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 768px){
+  .blog .container h2::after {
+    left: 20%;
+   top:95%
+    
+  }
+  .blog .container h2::before{
+    left: 25%;
+    top: 90%;
+
+    
+  }
+  .blog .container .blog-item{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width:992px){
+  .blog .container h2::after {
+    left: 30%;
+    top:95%;
+  }
+  .blog .container h2::before{
+    left:35%;
+    top: 90%;
+  }
+  .blog .container .blog-item{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px){
+  .contact .container h2::after {
+    left: 20%;
+   top:95%
+    
+  }
+  .contact .container h2::before{
+    left: 25%;
+    top: 94%;
+    
+    
+  }
+  .contact .container .insert{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .contact .container .insert .name{
+    width: 100%;
+  }
+  .contact .container .insert .email{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width:992px){
+  .contact .container h2::after{
+    left: 30%;
+    top:97%;
+  }
+  .contact .container h2::before{
+    left:35%;
+    top: 96%;
+  }
+  .contact .container .insert{
+    width: 100%;
+    margin-left: 10px;
+  }
+}
